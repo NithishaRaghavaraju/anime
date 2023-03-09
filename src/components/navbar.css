@@ -1,0 +1,13 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    /* margin: 3%; */
+    padding: 3%;
+}
+.homepage{
+    color: black;
+    text-decoration: none;
+}
+.homelink{
+    text-decoration: none;
+}

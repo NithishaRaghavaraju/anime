@@ -1,0 +1,65 @@
+.homepage{
+    color: white;
+}
+.optionsmain::before {
+    content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-image: url("../assets/japan.jpg");
+  background-size: cover;
+  filter: blur(2px);
+  /* background-color: black; */
+  /* opacity: 0.5; */
+  mix-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.5);
+  }
+.optionsmain{
+    color: white;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+.animeoptions{
+    display: flex;
+}
+.imgoptions{
+    height: 450px;
+    width : 350px;
+}
+.listanime{
+    display: flex;
+    justify-content: space-between;
+}
+.naruto1,.aot1,.deathnote1,.demonslayer1,.jujutsu1{
+    height: 450px;
+    width : 350px;
+  background-size: 100% 100%;
+  display: flex;
+  align-items: center;
+  margin: 1%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+}
+.naruto1{
+    background-image: url("../assets/narutooption.jpg");
+}
+.aot1{
+    background-image: url("../assets/aot1.jpg");
+}
+.jujutsu1{
+    background-image: url("../assets/jujutsu3.jpg");
+}
+.demonslayer1{
+    background-image: url("../assets/demon-slayer2.jpg");
+}
+.deathnote1{
+    background-image: url("../assets/deathnote2.jpg");
+}
+.animepara{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}

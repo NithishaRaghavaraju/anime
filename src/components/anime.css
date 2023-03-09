@@ -1,0 +1,155 @@
+.narutopage::before{
+    content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-image: url("../assets/naruto_bg.jpg");
+  background-size: cover;
+  filter: blur(2px);
+  /* background-color: black; */
+  opacity: 0.5; 
+  mix-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.jujutsu::before {
+    content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-image: url("../assets/jujutsu5.png");
+  background-size: cover;
+  filter: blur(2px);
+  background-color: black;
+  opacity: 0.5;
+  mix-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.5);
+  }
+  .AOT::before {
+    content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-image: url("../assets/aot5.png");
+  background-size: cover;
+  filter: blur(2px);
+  background-color: black;
+  /* opacity: 0.5; */
+  mix-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.5);
+  }
+.DemonSlayer::before {
+    content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-image: url("../assets/demon-slayer2.jpg");
+  background-size: cover;
+  filter: blur(2px);
+  /* background-color: black; */
+  /* opacity: 0.5; */
+  mix-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.5);
+  }
+.DeathNote::before {
+    content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-image: url("../assets/deathnote2.jpg");
+  background-size: cover;
+  filter: blur(2px);
+  /* background-color: black; */
+  /* opacity: 0.5; */
+  mix-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.5);
+  }
+.narutopage{
+    font-family: 'Playfair Display', serif;
+}
+.content{
+    /* display: flex;
+    align-items: center; */
+}
+.anime_image{
+    width: 150px;
+    height: 200px;
+    padding: 2%;
+}
+.center,.right{
+    width: 60%;
+    padding: 2%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    margin-left: 2%;
+    background-color:rgba(238, 233, 233, 0.8);
+}
+.center{
+    margin-left: 18% ;
+    margin-bottom: 5%;
+}
+h3{
+    font-size: 30px;
+}
+.leftnav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    align-items: center;
+    font-size: 25px;
+}
+.Eachanime{
+    display: flex;
+    justify-content: space-between;
+    /* margin-bottom: 5%; */
+    align-items: center;
+    /* background-color: #ECF9FF; */
+    padding-right: 2% ;
+    padding-left: 2% ;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+}
+.amazon-link{
+    width: 25%;
+    height: 45px;
+    background-color: #DF2E38;
+    border: none;
+  border-radius: 20px;
+  font-size: medium;
+
+}
+.animelink{
+    text-decoration: none;
+    color:aliceblue;
+    
+}
+.right{
+    margin-right: 2%;
+}
+.upper{
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 5% ;
+    padding-left: 5% ;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+}
+.category{
+    border: orange;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}

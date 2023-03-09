@@ -1,0 +1,80 @@
+/* .home{
+    background-image: url("../assets/best anime pic.jpg");
+    background-size: cover;
+    height: 700px;
+    backdrop-filter: blur(5px);
+} */
+.home::before {
+    content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-image: url("../assets/best anime pic.jpg");
+  background-size: cover;
+  filter: blur(2px);
+  /* background-color: black; */
+  /* opacity: 0.5; */
+  mix-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .middle,.home{
+    color: white;
+    font-family: 'Playfair Display', serif;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+  }
+  .homenav{
+    text-decoration: none;
+  }
+  .middle{
+    margin-top: 5%;
+  }
+.title{
+
+font-family: 'Playfair Display', serif;
+font-size: 100px;
+padding: 2%;
+}
+
+.bars{
+    height: 60px;
+    width: 60px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    padding:2%;
+}
+.home-naruto{
+    height: 400px;
+    width: 280px;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.footer{
+    margin-top: 3%;
+    padding: 5%;
+    text-decoration: none;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+}
+@media only screen and (max-width: 600px) {
+  .bottom {
+    display:none;
+  }
+  .title{
+      margin-right: 5%;
+      font-size: 65px;
+      word-wrap: break-word;
+
+  }
+}
